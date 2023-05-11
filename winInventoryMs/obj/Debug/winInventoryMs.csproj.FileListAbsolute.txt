@@ -1,0 +1,31 @@
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\bin\Debug\winInventoryMs.exe.config
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\bin\Debug\winInventoryMs.exe
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\bin\Debug\winInventoryMs.pdb
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.login.resources
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.Properties.Resources.resources
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.Sample.resources
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.csproj.GenerateResource.cache
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.exe
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.pdb
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.csproj.AssemblyReference.cache
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.MDI.resources
+C:\Users\ahmed\source\repos\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.Setting.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\bin\Debug\winInventoryMs.exe.config
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\bin\Debug\winInventoryMs.exe
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\bin\Debug\winInventoryMs.pdb
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.csproj.AssemblyReference.cache
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.csproj.SuggestedBindingRedirects.cache
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.frmUser.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.HomeScreen.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.login.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.MDI.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.Properties.Resources.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.Sample.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.Sample3.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.Setting.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.User.resources
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.csproj.GenerateResource.cache
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.csproj.CoreCompileInputs.cache
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.exe
+D:\PROGRAMS\VISUAL STUDIO\winInventoryMs\winInventoryMs\winInventoryMs\obj\Debug\winInventoryMs.pdb

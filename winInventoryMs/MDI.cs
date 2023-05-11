@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace winInventoryMs
 {
@@ -19,6 +20,18 @@ namespace winInventoryMs
 
         private void MDI_Load(object sender, EventArgs e)
         {
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+            if (File.Exists( path+"\\connect"))
+            {
+                login lForm = new login();
+                MainClass.showWindow(lForm, this);
+            }
+            else
+            {
+                Setting setting = new Setting();
+                MainClass.showWindow(setting, this);
+
+            }
 
         }
 
@@ -29,8 +42,7 @@ namespace winInventoryMs
         
         private void lOGINToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            login lForm = new login();
-            MainClass.showWindow(lForm,this);
+           
         }
     }
 }

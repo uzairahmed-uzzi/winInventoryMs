@@ -21,5 +21,11 @@ namespace winInventoryMs
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            HomeScreen hms=new HomeScreen();
+            MainClass.showWindow(hms, this, MDI.ActiveForm);
+        }
     }
 }
