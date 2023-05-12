@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace winInventoryMs
 {
-    public partial class login : Sample
+    public partial class HomeScreen : Sample
     {
-        public login()
+        public HomeScreen()
         {
             InitializeComponent();
         }
 
-        private void login_Load(object sender, EventArgs e)
+        private void btnUser_Click(object sender, EventArgs e)
         {
-          
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            HomeScreen hs = new HomeScreen();
-            MainClass.showWindow(hs,this, MDI.ActiveForm);
+            frmUser user = new frmUser();
+            MainClass.showWindow(user, this, MDI.ActiveForm);
         }
     }
 }

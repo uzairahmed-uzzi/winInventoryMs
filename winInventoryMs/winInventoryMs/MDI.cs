@@ -20,8 +20,8 @@ namespace winInventoryMs
 
         private void MDI_Load(object sender, EventArgs e)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            if (File.Exists( path+"\\connect"))
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+            if (File.Exists(path+"\\connect"))
             {
                 login lForm = new login();
                 MainClass.showWindow(lForm, this);
@@ -48,8 +48,7 @@ namespace winInventoryMs
         private void sETTINGSToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Setting setting = new Setting();
-            MainClass.showWindow(setting, this);
-            
+            MainClass.showWindow(setting,ActiveMdiChild,MDI.ActiveForm);
         }
     }
 }

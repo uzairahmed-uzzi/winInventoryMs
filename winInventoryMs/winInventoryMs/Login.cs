@@ -19,13 +19,13 @@ namespace winInventoryMs
 
         private void login_Load(object sender, EventArgs e)
         {
-          
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            HomeScreen hs = new HomeScreen();
-            MainClass.showWindow(hs,this, MDI.ActiveForm);
+            HomeScreen hms=new HomeScreen();
+            MainClass.showWindow(hms, this, MDI.ActiveForm);
         }
     }
 }

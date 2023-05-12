@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +11,20 @@ namespace winInventoryMs
 {
     class MainClass
     {
+        private static string path=Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+        private static string s=File.ReadAllText(path+"//connect");
+        public static SqlConnection con=new SqlConnection(s);
+        public static DialogResult showMsg(string msg, string heading, string type)
+        {
+            if (type == "success")
+            {
+                return MessageBox.Show(msg, heading, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                return MessageBox.Show(msg, heading, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         public static void showWindow(Form openWin,Form closeWin,Form mdiWin  )
         {
             closeWin.Close();
@@ -77,37 +93,41 @@ namespace winInventoryMs
                 if (c is TextBox)
                 {
                     TextBox obj = (TextBox)c;
-                    obj.Enabled = false;
-                    
+                    obj.Visible = false;
                 }
                 else if (c is ListBox)
                 {
                     ListBox obj = (ListBox)c;
-                    obj.Enabled = false;
-                    
+                    obj.Visible = false;
                 }
                 else if (c is ComboBox)
                 {
                     ComboBox obj = (ComboBox)c;
-                    obj.Enabled = false;
+                    obj.Visible = false;
                     
                 }
                 else if (c is RadioButton)
                 {
                     RadioButton obj = (RadioButton)c;
-                    obj.Enabled = false;
+                    obj.Visible = false;
                     
                 }
                 else if (c is CheckBox)
                 {
                     CheckBox obj = (CheckBox)c;
-                    obj.Enabled = false;
+                    obj.Visible = false;
                     
                 }
                 else if (c is Button)
                 {
                     Button obj = (Button)c;
-                    obj.Enabled = false;
+                    obj.Visible = false;
+
+                }
+                else if (c is Label)
+                {
+                    Label obj = (Label)c;
+                    obj.Visible = false;
 
                 }
             }
@@ -119,37 +139,43 @@ namespace winInventoryMs
                 if (c is TextBox)
                 {
                     TextBox obj = (TextBox)c;
-                    obj.Enabled = true;
+                    obj.Visible = true;
                     obj.Text = "";
                 }
                 else if (c is ListBox)
                 {
                     ListBox obj = (ListBox)c;
-                    obj.Enabled = true;
+                    obj.Visible = true;
                     obj.SelectedIndex = -1;
                 }
                 else if (c is ComboBox)
                 {
                     ComboBox obj = (ComboBox)c;
-                    obj.Enabled = true;
+                    obj.Visible = true;
                     obj.SelectedIndex = -1;
                 }
                 else if (c is RadioButton)
                 {
                     RadioButton obj = (RadioButton)c;
-                    obj.Enabled = true;
+                    obj.Visible = true;
                     obj.Checked = false;
                 }
                 else if (c is CheckBox)
                 {
                     CheckBox obj = (CheckBox)c;
-                    obj.Enabled = true;
+                    obj.Visible = true;
                     obj.Checked = false;
                 }
                 else if (c is Button)
                 {
                     Button obj = (Button)c;
-                    obj.Enabled = false;
+                    obj.Visible = true;
+
+                }
+                else if (c is Label)
+                {
+                    Label obj = (Label)c;
+                    obj.Visible = true;
 
                 }
             }
@@ -161,37 +187,41 @@ namespace winInventoryMs
                 if (c is TextBox)
                 {
                     TextBox obj = (TextBox)c;
-                    obj.Enabled = true;
-                    
+                    obj.Visible = true;
                 }
                 else if (c is ListBox)
                 {
                     ListBox obj = (ListBox)c;
-                    obj.Enabled = true;
+                    obj.Visible = true;
                 }
                 else if (c is ComboBox)
                 {
                     ComboBox obj = (ComboBox)c;
-                    obj.Enabled = true;
-                    
+                    obj.Visible = true;
+
                 }
                 else if (c is RadioButton)
                 {
                     RadioButton obj = (RadioButton)c;
-                    obj.Enabled = true;
-                    
-                    
+                    obj.Visible = true;
+
                 }
                 else if (c is CheckBox)
                 {
                     CheckBox obj = (CheckBox)c;
-                    obj.Enabled = true;
-                    
+                    obj.Visible = true;
+
                 }
                 else if (c is Button)
                 {
                     Button obj = (Button)c;
-                    obj.Enabled = false;
+                    obj.Visible = true;
+
+                }
+                else if (c is Label)
+                {
+                    Label obj = (Label)c;
+                    obj.Visible = true;
 
                 }
             }
