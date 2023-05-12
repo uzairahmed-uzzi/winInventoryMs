@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +11,20 @@ namespace winInventoryMs
 {
     class MainClass
     {
+        private static string path=Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
+        private static string s=File.ReadAllText(path+"//connect");
+        public static SqlConnection con=new SqlConnection(s);
+        public static DialogResult showMsg(string msg, string heading, string type)
+        {
+            if (type == "success")
+            {
+                return MessageBox.Show(msg, heading, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                return MessageBox.Show(msg, heading, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         public static void showWindow(Form openWin,Form closeWin,Form mdiWin  )
         {
             closeWin.Close();

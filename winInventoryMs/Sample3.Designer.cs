@@ -37,13 +37,21 @@
             this.grpSearchBox = new System.Windows.Forms.GroupBox();
             this.txtSearchBox = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.leftTopPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.leftPanel.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.grpSearchBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // leftTopPanel
+            // 
+            this.leftTopPanel.Controls.Add(this.pictureBox1);
+            this.leftTopPanel.Controls.SetChildIndex(this.label1, 0);
+            this.leftTopPanel.Controls.SetChildIndex(this.pictureBox1, 0);
             // 
             // panel1
             // 
@@ -175,6 +183,17 @@
             this.panel3.Size = new System.Drawing.Size(252, 87);
             this.panel3.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = global::winInventoryMs.Properties.Resources.backBtn1;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(77, 77);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Sample3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -194,6 +213,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.grpSearchBox.ResumeLayout(false);
             this.grpSearchBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -209,5 +229,6 @@
         public System.Windows.Forms.Button btnAdd;
         public System.Windows.Forms.GroupBox grpSearchBox;
         public System.Windows.Forms.TextBox txtSearchBox;
+        protected System.Windows.Forms.PictureBox pictureBox1;
     }
 }

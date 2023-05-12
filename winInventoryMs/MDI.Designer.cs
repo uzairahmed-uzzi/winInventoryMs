@@ -32,6 +32,7 @@ namespace winInventoryMs
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mENUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sETTINGSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@ namespace winInventoryMs
             // mENUToolStripMenuItem
             // 
             this.mENUToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sETTINGSToolStripMenuItem,
             this.eXITToolStripMenuItem});
             this.mENUToolStripMenuItem.Name = "mENUToolStripMenuItem";
             this.mENUToolStripMenuItem.Size = new System.Drawing.Size(78, 29);
@@ -60,9 +62,16 @@ namespace winInventoryMs
             this.eXITToolStripMenuItem.Name = "eXITToolStripMenuItem";
             this.eXITToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.E)));
-            this.eXITToolStripMenuItem.Size = new System.Drawing.Size(251, 34);
+            this.eXITToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.eXITToolStripMenuItem.Text = "EXIT";
             this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
+            // 
+            // sETTINGSToolStripMenuItem
+            // 
+            this.sETTINGSToolStripMenuItem.Name = "sETTINGSToolStripMenuItem";
+            this.sETTINGSToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.sETTINGSToolStripMenuItem.Text = "SETTINGS";
+            this.sETTINGSToolStripMenuItem.Click += new System.EventHandler(this.sETTINGSToolStripMenuItem_Click);
             // 
             // MDI
             // 
@@ -89,5 +98,6 @@ namespace winInventoryMs
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mENUToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eXITToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sETTINGSToolStripMenuItem;
     }
 }

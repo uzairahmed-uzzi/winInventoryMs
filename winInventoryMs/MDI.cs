@@ -21,7 +21,7 @@ namespace winInventoryMs
         private void MDI_Load(object sender, EventArgs e)
         {
             string path = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments);
-            if (File.Exists( path+"\\connect"))
+            if (File.Exists(path+"\\connect"))
             {
                 login lForm = new login();
                 MainClass.showWindow(lForm, this);
@@ -43,6 +43,12 @@ namespace winInventoryMs
         private void lOGINToolStripMenuItem_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void sETTINGSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Setting setting = new Setting();
+            MainClass.showWindow(setting,ActiveMdiChild,MDI.ActiveForm);
         }
     }
 }
